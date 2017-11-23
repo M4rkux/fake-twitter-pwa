@@ -16,14 +16,16 @@ module.exports = function(grunt) {
         files: ["public/**/*", "server/**/*", "!**/node_modules/**"],
         tasks: ["default", "express"],
         options: {
-          spawn: false
+          spawn: false,
+          interrupt: true,
+          livereload: true
         }
       },
       express: {
         web: {
           options: {
             script: "server/index.js",
-            port: 8443
+            port: 3000
           }
         }
       }
