@@ -1,0 +1,33 @@
+{
+  "name": "fake-twitter-pwa",
+  "version": "1.0.0",
+  "description": "Progressive Web App simulando uma rede social onde são compartilhadas somente mensagem de texto em sua forma mais simples possível para fins didáticos.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/M4rkux/fake-twitter-pwa.git"
+  },
+  "keywords": [
+    "pwa",
+    "progressive",
+    "web",
+    "app"
+  ],
+  "author": "Marcus Amaral Rolim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/M4rkux/fake-twitter-pwa/issues"
+  },
+  "homepage": "https://github.com/M4rkux/fake-twitter-pwa#readme",
+  "devDependencies": {
+    "express": "^4.16.2",
+    "grunt": "^1.0.1",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-eslint": "^20.1.0",
+    "grunt-express-server": "^0.5.3",
+    "web-push": "^3.2.4"
+  }
+}
